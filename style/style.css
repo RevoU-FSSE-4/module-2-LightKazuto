@@ -5,8 +5,6 @@
 
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
     background-color: #f0f0f0;
 }
 
@@ -17,6 +15,10 @@ nav  .nav-bar{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    margin-right: 100px;
+    z-index: 999;
 }
 
 nav h1 {
@@ -33,7 +35,7 @@ nav ul {
 }
 
 nav li {
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 nav a {
@@ -46,12 +48,13 @@ nav a {
 
 nav a:hover {
     color: #ffd700;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    text-shadow: 2px 2px 4px rgba(247, 246, 246, 0.8);
 }
 
 header{
     text-align: center;
     color: white;
+    width: 100%;
     background-color: #222222;
     height: 320px;
     display: flex;
@@ -59,7 +62,6 @@ header{
     justify-content: center;
     padding-top: 48px;
     background-image: url('BG.jpg');
-    background-position: top center;
     background-size: cover;
 }
 
@@ -67,6 +69,20 @@ header{
     font-family: Pacifico;
     font-size: 72px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
 }
 
 .nav-head p{
@@ -104,6 +120,18 @@ header{
 
 .photo-card:hover {
     transform: scale(1.05);
+}
+
+.photo-grid2{
+    display: grid;
+    margin: 20px auto;
+    padding: 20px;
+    width: 100%;
+    max-width: 85%;
+}
+
+.photo-grid2 img{
+    width: 100%;
 }
 
 @media screen and (max-width: 768px) {
