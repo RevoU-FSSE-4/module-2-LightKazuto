@@ -93,8 +93,8 @@ header{
 /* Main content */
 .photo-grid {
     display: grid;
-    grid-template-columns: 650px 650px 650px;
-    grid-template-rows: 400px 400px 400px;
+    grid-template-columns: 500px 500px 500px;
+    grid-template-rows: 300px 300px 300px;
     gap: 20px;
     max-width: 85%;
     margin: 20px auto;
