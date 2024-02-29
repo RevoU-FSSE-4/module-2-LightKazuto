@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -150,19 +151,36 @@ header{
 }
 
 .photo-grid2{
-    display: grid;
+    display: block;
     margin: 20px auto;
     padding: 20px;
     width: 100%;
     max-width: 85%;
 }
 
-.photo-grid2 img{
-    width: 100%;
-    
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
 }
 
-@media screen and (max-width: 768px) {
+h2{
+    text-align: center;
+}
+
+.photo-grid2 img{
+    width: 600px;
+    margin-right: 20px;
+}
+
+.photo-grid2 ul li{
+    margin-left: 30px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: decimal ;
+}
+
+@media screen and (max-width: 800px) {
     .nav-bar {
         flex-direction: column;
         align-items: flex-start;
@@ -176,5 +194,58 @@ header{
     nav li {
         margin-right: 0;
         margin-bottom: 10px;
+    }
+
+    .photo-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 300px 300px 300px 300px;
+        grid-gap: 20px;
+        max-width: 85%;
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    #one{
+        grid-column: 1;
+        grid-row: 1 / span 2;
+    }
+
+    #two{
+        grid-column: 2 / span 1;
+        grid-row: 1;
+    }
+
+    #three{
+        grid-column: 2 ;
+        grid-row: 2;
+    }
+
+    #four{
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    #five{
+        grid-column: 2;
+        grid-row: 3 / span 2;
+    }
+
+    #six{
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+}
+
+@media screen and (max-width : 1200px) {
+    .flex-container {
+        display: grid;
+        margin-top: 30px;
+    }
+
+    .photo-grid2 img {
+        width: 100%;
+        margin-top: 20px;
     }
 }
