@@ -68,7 +68,7 @@ header{
 .nav-head h1{
     font-family: Pacifico;
     font-size: 72px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    text-shadow: 2px 2px 4px    rgba(0, 0, 0, 0.8);
     animation-duration: 3s;
     animation-name: slidein;
 }
@@ -93,9 +93,9 @@ header{
 /* Main content */
 .photo-grid {
     display: grid;
-    grid-template-columns: 500px 500px 500px;
-    grid-template-rows: 300px 300px 300px;
-    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 300px 300px 300px;
+    grid-gap: 20px;
     max-width: 85%;
     margin: 20px auto;
     padding: 20px;
@@ -110,8 +110,9 @@ header{
 
 .photo-card img {
     width: 100%;
-    height: fit-content;
-    
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
 }
 
 #one{
