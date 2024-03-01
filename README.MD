@@ -21,7 +21,7 @@ is a website where you can see a collection of photos of people who live in vill
 
 ## Usage
 
-- Netlify Sign up & Connect with Github
+- **Netlify Sign up & Connect with Github**
 
 1. First thing open https://app.netlify.com/
    ![Login Netlify](asset/Screenshot%202024-02-28%20144754.png)
@@ -32,7 +32,7 @@ is a website where you can see a collection of photos of people who live in vill
 
 <br>
 
-- Auto Deployment on Github with Netlify
+- **Auto Deployment on Github with Netlify**
 
 1. First, open your netlify
    ![Logen Netlify](asset/1.png)
@@ -53,6 +53,34 @@ is a website where you can see a collection of photos of people who live in vill
 9. Refresh your browser after a minute and, violla your web site has been deploy.
    ![Finnish Deploy](asset/8.png)
 
-- Ini adalah daftar
-  - Item daftar bersarang
-    [Ini adalah tautan](https://www.example.com)
+- **Connect our Custom Domain and DNS on Netlify**
+
+1. Open your deployment who wanna se Custom Domain. and then click under number 2 **Set up a custom domain**
+   ![Open Deploymen](asset/a.png)
+2. Fill box Custom domain or sub domain, in this case I am use **ilham-sidiq.site** after that click add domain.
+   ![Useing Custom Domain](asset/c.png)
+3. after that, copy your Name server (DNS) into your custom domain.
+   ![Copy DNS in Netlify](asset/d.png)
+4. On this case I am buying Custom Domain in NIAGAHOSTER, add your DNS in niaga hoster to your Niaga hoster like this. and then click save
+   ![Copying DNS on netlify into Niagahoster](asset/ee.jpg)
+5. After you click save you have to wait for approximately 24 hours. <br>
+6. Check periodically until the reading in the middle becomes a checklist.
+   ![checklish DNS](asset/f.png)
+7. after your netlify DNS on checklist and boom your DNS has already published. Finished.
+   ![Finnush Deploy Custom Domain](asset/g.png)
+   <br>
+
+- **For Someone wanna clone my repository**
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/RevoU-FSSE-4/module-2-LightKazuto.git
+```
+
+2. Open index.html (Recomedation to open in Google Chrome)
+3. Enjoy Explore my Web.
+   <br>
+
+- **You can just Open my web with my Custom Domain Here**
+  [here is the link](https://ilham-sidiq.site/)
