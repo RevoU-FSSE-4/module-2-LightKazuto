@@ -4,10 +4,10 @@ Humans is a website where you can see photos of beauty and how people in village
 
 ## table of content
 
-- [Intorduction]
-- [features]
-- [usage]
-- [license]
+- [Intorduction](#introduction)
+- [features](#features)
+- [usage](#usage)
+- [license](#license)
 
 ## introduction
 
