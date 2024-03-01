@@ -84,3 +84,8 @@ git clone https://github.com/RevoU-FSSE-4/module-2-LightKazuto.git
 
 - **You can just Open my web with my Custom Domain Here**
   [here is the link](https://ilham-sidiq.site/)
+
+  ## License
+
+  This web has licensed bt owner Ilham Sidiq Dont try to copy or repost without permission author.
+  you can contact author via Github : https://github.com/LightKazuto
