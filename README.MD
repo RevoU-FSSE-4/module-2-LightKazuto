@@ -16,8 +16,9 @@ is a website where you can see a collection of photos of people who live in vill
 ## Features
 
 - **Photos List :** given photos about people on village.
-- **how to use netlyfy:** given information how to use netlify.\
-- **how to use custom domain:** given information how to use custom domain and how to buy it.
+- **Request photos :** requst photo of village.
+- **how to use netlyfy :** given information how to use netlify.\
+- **how to use custom domain :** given information how to use custom domain and how to buy it.
 
 ## Usage
 
