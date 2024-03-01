@@ -13,15 +13,15 @@ Humans is a website where you can see photos of beauty and how people in village
 
 is a website where you can see a collection of photos of people who live in villages. For those of us who live in the hustle and bustle of urban areas, we certainly want the tranquility of being in a village. Therefore, this website provides a collection of photos for those of you who want to see the beauty and tranquility of the village. Apart from that, this time I will write about the Netlify sign up process and how to connect your Netlify account with a GitHub account, auto deploy GitHub with Netlify, and connect custom domains and DNS.
 
-# Features
+## Features
 
 - **Photos List :** given photos about people on village.
 - **how to use netlyfy:** given information how to use netlify.\
 - **how to use custom domain:** given information how to use custom domain and how to buy it.
 
-# Usage
+## Usage
 
-# - Netlify Sign up & Connect with Github
+- Netlify Sign up & Connect with Github
 
 1. First thing open https://app.netlify.com/
    ![Login Netlify](asset/Screenshot%202024-02-28%20144754.png)
@@ -30,7 +30,7 @@ is a website where you can see a collection of photos of people who live in vill
 3. Finaly, you logged into the web !!.
    ![After Login](asset/Screenshot%202024-02-28%20145222.png)
 
-# - Auto Deployment on Github with Netlify
+- Auto Deployment on Github with Netlify
 
 1. First, open your netlify
    ![Logen Netlify](asset/1.png)
