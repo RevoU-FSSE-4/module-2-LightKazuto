@@ -168,6 +168,12 @@ h2{
     text-align: center;
 }
 
+.photo-grid2{
+    background-image: linear-gradient(to top, #EC8F5E,#F3B664 );
+    color: #2C3639;
+    box-shadow: 5px 5px 10px  #FFE17B;
+}
+
 .photo-grid2 img{
     width: 600px;
     margin-right: 20px;
@@ -178,6 +184,15 @@ h2{
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     list-style: decimal ;
+}
+
+.photo-grid2 p{
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    max-width: 80%;
 }
 
 @media screen and (max-width: 800px) {
@@ -247,5 +262,14 @@ h2{
     .photo-grid2 img {
         width: 100%;
         margin-top: 20px;
+    }
+
+    .photo-grid2 p {
+        margin-left: 10px;
+        margin-top: 20px;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: justify;
+        max-width: 100%;
     }
 }
