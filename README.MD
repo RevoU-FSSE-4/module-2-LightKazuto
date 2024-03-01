@@ -30,6 +30,8 @@ is a website where you can see a collection of photos of people who live in vill
 3. Finaly, you logged into the web !!.
    ![After Login](asset/Screenshot%202024-02-28%20145222.png)
 
+<br>
+
 - Auto Deployment on Github with Netlify
 
 1. First, open your netlify
