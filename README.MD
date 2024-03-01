@@ -30,6 +30,28 @@ is a website where you can see a collection of photos of people who live in vill
 3. Finaly, you logged into the web !!.
    ![After Login](asset/Screenshot%202024-02-28%20145222.png)
 
+- Auto Deployment on Github with Netlify
+1. First, open your netlify
+    ![Logen Netlify](asset/1.png)
+2. Click on **Add new site**
+    ![click add new site](asset/11.jpg)
+3. And then click on **Import an existing project**
+    ![Connect Github](asset/2.png)
+4. Then click **Deploy with Github**
+    ![Deploy with Github](asset/33.jpg)
+5. Chose repository what do you want to deploy
+    ![Chose Directory](asset/4.png)
+5. After that, fill section **site name**, give name like do you want and chose branch to deploy, in this case I want to deploy main branch.
+    ![Fill Site Name](asset/5.png)
+6. And then click **Deploy**
+    ![Click Deploy](asset/66.jpg)
+7. After you click **Deploy** and your site is in deployment progress like this and wait for a minute.
+    ![Deployment Progress](asset/7.png)
+8. Refresh your browser after a minute and, violla your web site has been deploy.
+    ![Finnish Deploy](asset/8.png)
+
+
+
 - Ini adalah daftar
   - Item daftar bersarang
     [Ini adalah tautan](https://www.example.com)
